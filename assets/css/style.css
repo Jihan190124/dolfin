@@ -1,19 +1,20 @@
 :root {
-    --ink: #152d28;
-    --green: #FFA500;
-    --green2: #FFA500;
-    --mint: #c8f36c;
-    --cream: #f5f5ef;
-    --paper: #fff;
-    --muted: #66736f;
-    --line: #e2e7e2;
-    --orange: #e9a45d;
-    --blue: #a7d5d4;
-    --purple: #c7b8e7;
-    --radius: 18px;
-    --shadow: 0 14px 40px rgba(18, 48, 39, .08)
-}
+    --ink: #172B4D;       /* Deep navy blue — main text */
+    --green: #F97316;     /* ORANGE — replace --green with --orange */
+    --green2: #EA580C;    /* DARK ORANGE — replace --green2 with --orange2 */
+    --mint: #FED7AA;      /* LIGHT ORANGE — replace --mint with --orange-light */
+    --cream: #F1F5F9;     /* LIGHT BLUE-GREY — section backgrounds */
+    --paper: #FFFFFF;     /* WHITE — cards */
+    --muted: #64748B;     /* SLATE GREY — secondary text */
+    --line: #DCE5EF;      /* PALE BLUE — borders */
 
+    --orange: #F97316;    /* PRIMARY ORANGE */
+    --blue: #2563EB;      /* PRIMARY BLUE */
+    --purple: #93C5FD;    /* LIGHT BLUE — replace with --blue-light */
+
+    --radius: 18px;
+    --shadow: 0 14px 40px rgba(23, 43, 77, .10);
+}
 * {
     box-sizing: border-box
 }
